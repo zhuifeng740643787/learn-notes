@@ -1,0 +1,56 @@
+{
+    "author": "宫宜栋<https://github.com/zhuifeng740643787>",
+    "title": "gitbook - 学习笔记",
+    "description": "学习笔记",
+    "generator": "site",
+
+    "plugins": [],
+
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 4
+        }
+    },
+
+    "variables": {},
+
+    "links": {
+        "sidebar": {
+            
+        },
+
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null,
+            "weibo": null,
+            "all": null
+        }
+    },
+
+
+    "pdf": {
+        "pageNumbers": true,
+
+        "fontSize": 14,
+
+        "paperSize": "a4",
+
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        },
+
+        "headerTemplate": null,
+
+        "footerTemplate": null
+    },
+
+    "styles": {
+        "website": "styles/site.css"
+    }
+}
