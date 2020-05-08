@@ -2,7 +2,7 @@
 
 ## 下载并解压安装包
 - cd /acs/data/download 
-- wget https://xxxx.com/common/php72.tar.gz?Expires=1591924453&OSSAccessKeyId=LTAIa1UEITFafaL8&Signature=OTIcuIi6%2FzdVRcs8v%2BkAeeDwWWs%3D -O php72.tar.gz && tar -zxvf php72.tar.gz
+- wget https://xxxx.com/common/php72.tar.gz -O php72.tar.gz && tar -zxvf php72.tar.gz
 - cd /acs/data/download/php72 && tar -zxvf php-7.2.17.tar.gz && tar -zxvf php72-mcrypt-1.0.2.tgz && tar -zxvf php72-redis-4.3.9.tgz
 
 ## 安装需要的库

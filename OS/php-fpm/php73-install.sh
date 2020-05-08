@@ -7,11 +7,10 @@ function printLog() {
 
 printLog '开始....'
 # printLog '下载并解压安装包..'
-# mkdir -p /acs/data/download && cd /acs/data/download && wget https://xxx.com/common/php73.tar.gz?Expires=1591924453&OSSAccessKeyId=LTAIa1UEITFafaL8&Signature=OTIcuIi6%2FzdVRcs8v%2BkAeeDwWWs%3D -O php73.tar.gz
 cd /acs/data/download/ && tar -zxvf php73.tar.gz && cd ./php73 && tar -zxvf php-7.3.9.tar.gz && tar -zxvf mcrypt-1.0.2.tgz && tar -zxvf redis-4.3.0.tgz && tar -zxvf nsq-3.5.0.tgz && tar -zxvf xlswriter-1.3.3.2.tgz
 
 # printLog '安装需要的库....'
-# yum install -y gcc gcc-c++ pcre-devel.x86_64 openssl-devel.x86_64 libxml2-devel.x86_64 bzip2-devel.x86_64 libcurl-devel.x86_64 libjpeg-devel.x86_64 libpng-devel.x86_64 freetype-devel.x86_64 libxslt-devel.x86_64 libzip-devel.x86_64 readline.x86_64  readline-devel.x86_64
+yum install -y gcc.x86_64 pcre-devel.x86_64 openssl-devel.x86_64 libxml2-devel.x86_64 bzip2-devel.x86_64 libcurl-devel.x86_64 libjpeg-devel.x86_64 libpng-devel.x86_64 freetype-devel.x86_64 libxslt-devel.x86_64 libzip-devel.x86_64  readline-devel.x86_64 pcre-devel.x86_64 autoconf.noarch libmcrypt-devel.x86_64 libevent-devel.x86_64 libjpeg-turbo-devel.x86_64 openjpeg-devel.x86_64
 
 printLog '更新libzip'
 # wget https://libzip.org/download/libzip-1.3.2.tar.gz
